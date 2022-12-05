@@ -3,6 +3,8 @@ body {
     margin: 0;
 }
 
+/* Header section */
+
 .header, .footer {
     background-color: #1F2937;
 }
@@ -68,6 +70,8 @@ img {
     margin-top: 15px;
 }
 
+/* also applies some style to button in sign up section */
+
 button {
     background-color: #3882f6;
     width: 130px;
@@ -76,6 +80,8 @@ button {
     color: #e5e7eb;
     font-weight: 700;
 }
+
+/* random information/top part of the body */
 
 .body-one {
     max-height: 400px;
@@ -112,6 +118,8 @@ button {
     margin-left: 35px;
 }
 
+/* quotes section */
+
 .body-two {
     background-color: #e5e7eb;
     display: flex;
@@ -137,6 +145,8 @@ button {
     display: flex;
     justify-content: flex-end;
 }
+
+/* sign up section */
 
 .body-three {
     height: 300px;
@@ -169,6 +179,8 @@ h4 {
     padding: 0;
     margin: 0;
 }
+
+/* footer */
 
 .footer {
     height: 80px;
