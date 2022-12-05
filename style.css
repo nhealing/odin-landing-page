@@ -19,6 +19,7 @@ body {
     font-weight: 900;
     margin: 0;
     padding: 0;
+    margin-top: 20px;
 }
 
 h3 {
@@ -59,6 +60,8 @@ ul, a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 75px;
+    gap: 10px;
 }
 
 .mid-header {
@@ -108,8 +111,12 @@ button {
     display: flex;
     height: 400px;
     justify-content: center;
-    align-items: flex-start;
-    margin-top: 70px;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
 }
 
 .text {
