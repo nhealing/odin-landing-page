@@ -171,7 +171,7 @@ button {
     padding: 20px 80px;
     color: #e5e7eb;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
