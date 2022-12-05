@@ -77,9 +77,13 @@ button {
     font-weight: 700;
 }
 
+.body-one {
+    max-height: 400px;
+}
+
 .body-title {
     text-align: center;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 36px;
     color: #1f2937;
     margin-top: 30px;
@@ -108,3 +112,28 @@ button {
     margin-left: 35px;
 }
 
+.body-two {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-container {
+    max-width: 800px;
+}
+
+.signature {
+    font-size: 24px;
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
+}
