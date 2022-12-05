@@ -170,12 +170,20 @@ button {
     border-radius: 10px;
     padding: 20px 80px;
     color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .sign-button {
     border: 1px solid #e5e7eb;
-    margin-left: 800px;
 }
+
+.sign-left {
+    display: flex;
+    flex-direction: column;
+}
+
 
 h4 {
     font-size: 24px;
