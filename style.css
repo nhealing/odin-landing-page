@@ -29,7 +29,6 @@ h3 {
 }
 
 .head-button {
-    background-color: #3882f6;
     border: none;
 }
 
@@ -51,7 +50,7 @@ ul, a {
 }
 
 .mid-header {
-   margin-left: 153px;
+   margin-left: 380px;
    margin-top: 30px;
    margin-right: 70px;
    display: flex;
@@ -70,7 +69,8 @@ img {
 }
 
 button {
-    max-width: 130px;
+    background-color: #3882f6;
+    width: 130px;
     height: 35px;
     border-radius: 10px;
     color: #e5e7eb;
@@ -136,4 +136,44 @@ button {
     font-weight: 800;
     display: flex;
     justify-content: flex-end;
+}
+
+.body-three {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-container {
+    background-color: #3882f6;
+    width: 956px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 20px 80px;
+    color: #e5e7eb;
+}
+
+.sign-button {
+    border: 1px solid #e5e7eb;
+    margin-left: 800px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.sign-para {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    height: 80px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
